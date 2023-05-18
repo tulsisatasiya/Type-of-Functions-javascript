@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+    
+        // Return no parameter
+        function swap(){
+            var a = parseInt(prompt("Enter value of A:"));
+            var b = parseInt(prompt("Enter value of B:"));
+    
+            document.write("Before swap value of A is: "+a+",<br> ");
+            document.write("<p>Before swap value of B is: "+b+"");
+    
+            var c;
+            c = a;
+            a = b;
+            b = c;
+            
+            return document.write("<h1>After swap value of A is: "+a+"</h1>"+"<h1>After swap value of B is: "+b+"</h1>");
+        }
+    
+        swap();
+    
+    </script>
+</body>
+</html>

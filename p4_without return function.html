@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>without return function</title>
+</head>
+<body>
+
+    <h1>without return function</h1>
+
+    <script>
+
+        function check(p,q,r){
+            if(p > q && p > r ){
+                document.write("P is Big");
+            }else if(q > p && q > r ){
+                document.write("Q is Big");
+            }else{
+                document.write("R is Big");
+            }
+        }
+
+        var p = parseInt(prompt("Enter the P:-"));
+        var q = parseInt(prompt("Enter the Q:-"));
+        var r = parseInt(prompt("Enter the R:-"));
+        
+        check(p,q,r);
+    </script>
+    
+</body>
+</html>
